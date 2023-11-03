@@ -23,4 +23,8 @@ To get started with this project, follow these steps:
 
 3. Set up a virtual host to point to the project's directory on your local server.
 
-4. Access the project in your web browser:
+4. Access the project in your web browser
+
+Website Preview:
+![Home Page](https://github.com/CliveRiady/PHP_CliveRiady/blob/main/Screenshots/Screenshots/1.png)
+
