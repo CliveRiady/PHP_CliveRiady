@@ -25,6 +25,20 @@ To get started with this project, follow these steps:
 
 4. Access the project in your web browser
 
-Website Preview:
+## Website Preview:
+
 ![Home Page](https://github.com/CliveRiady/PHP_CliveRiady/blob/main/Screenshots/Screenshots/1.png)
+
+![2](https://github.com/CliveRiady/PHP_CliveRiady/blob/main/Screenshots/Screenshots/2.png)
+
+![3](https://github.com/CliveRiady/PHP_CliveRiady/blob/main/Screenshots/Screenshots/3.png)
+
+![4](https://github.com/CliveRiady/PHP_CliveRiady/blob/main/Screenshots/Screenshots/4.png)
+
+![5](https://github.com/CliveRiady/PHP_CliveRiady/blob/main/Screenshots/Screenshots/5.png)
+
+![6](https://github.com/CliveRiady/PHP_CliveRiady/blob/main/Screenshots/Screenshots/6.png)
+
+![7](https://github.com/CliveRiady/PHP_CliveRiady/blob/main/Screenshots/Screenshots/7.png)
+
 
