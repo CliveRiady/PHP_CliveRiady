@@ -1,0 +1,125 @@
+:root {
+    --accent: rgb(0, 87, 217);
+    --bg1: #FAF9F6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    font-weight: 900;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+::selection {
+    /* color: black; */
+    color:var(--accent);
+    background: rgb(201, 223, 255); 
+}
+
+.space { margin:0; padding:0; height:3em; }
+.space2 { margin:0; padding:0; height:1em; }
+
+
+/* navbar css */
+.hover\:bg-blue-100:hover {
+    background-color:rgb(201, 223, 255); 
+}
+
+.dropdown-menu {
+    background-color:rgba(240, 248, 255, 0.9); 
+}
+
+.navbar-scrolled {
+    background-color: rgba(33, 37, 41, 0.9);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+@media screen and (min-width: 992px){
+    .dropdown:hover .dropdown-menu{
+        display: block;
+        margin-top: 0;
+    }
+    .dropdown .dropdown-menu{
+        display: none;
+    }
+    .dropdown:hover .dropdown-toggle::after{
+        border-top: 0;
+        border-bottom: .3em solid;
+        transition: all 0.5s;
+    }
+}
+@media screen and (max-width: 992px){
+    .dropdown-toggle.show::after{
+    border-top: 0;
+    border-bottom: .3em solid;
+}
+}
+
+/* navbar css end */
+.carousel-inner img {
+    filter: brightness(80%);
+    height: 620px;
+    object-fit: cover;
+}
+
+.carousel-item {
+    position: relative;
+    color: white;
+}
+
+.carousel-text {
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    text-align: center;
+}
+
+.carousel-text p {
+    font-size: 1rem;
+}
+
+.my-btn {
+    background-color: white;
+    border-width: 1px;
+    border-color: rgb(204, 204, 204);
+    border-radius: 9999px;
+    border-width: 1px;
+    padding: 0.5rem 1.25rem;
+    font-size: 14px;
+    font-weight: 500;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: .15s;
+}
+
+.my-btn:hover {
+    background-color: var(--accent);
+    color: white; 
+    border-color: var(--accent);
+}
+
+.my-a {
+    color: black;
+    border-bottom: 2px solid var(--accent);
+    width:fit-content;
+    text-decoration: none;
+    transition:all 0.3s ease-in;
+}
+
+.my-a:hover {
+    color: white; 
+    background: var(--accent);
+}
+
+.svg-to-white {
+    fill: white;
+}
+
+footer {
+    background-color: rgba(33, 37, 41);
+}
